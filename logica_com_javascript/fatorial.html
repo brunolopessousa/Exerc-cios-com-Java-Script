@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatorial</title>
+</head>
+<body>
+    <script>
+        var fatorial, numero, contador
+
+        // Entrada
+        fatorial=1
+        numero=parseFloat(prompt("Informe o numero a ser calculado a fatorial: "))
+
+        // Processamento
+        for (contador = numero; contador >= 1; contador--) {
+            fatorial *= contador;
+        }
+
+        // Saída
+        document.write("Fatorial de ", numero, " é: ", fatorial);
+        console.log("fatorial de ", numero, " é: ", fatorial)
+
+    </script>
+</body>
+</html>

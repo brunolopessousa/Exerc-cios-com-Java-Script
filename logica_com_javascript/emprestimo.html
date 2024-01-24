@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+</head>
+<body>
+    <script>
+        var renda, emprestimo
+
+        // Entrada
+        renda =parseFloat(prompt("Informe sua renda mensal: "))
+        emprestimo =parseFloat(prompt("Possui algum empréstimo ativo ? (0 para não e 1 para sim)"))
+
+        // Processamento
+        if(renda > 2000 || emprestimo == 0) {
+        // Saída
+        document.write("Parabéns! Você é elegível para um novo empréstimo")
+        console.log("Parabéns! Você é elegível para um novo empréstimo")
+        }else{
+        // Saída
+        document.write("Desculpe, mas você não atende aos critérios")
+        console.log("Desculpe, mas voê não atende aos critérios")    
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Força Bruta</title>
+</head>
+<body>
+    <script>
+        var soma, numero, contador
+
+// Entrada
+alert("CALCULANDO A SOMA DE 1 ATÉ O NÚMERO MAIOR");
+numero=parseFloat(prompt("Informe o numero maior: "));
+
+document.write("<br>")
+
+// Entrada
+soma = 0
+
+// Processamento
+for (contador = 1;contador <= numero; contador ++ ) {
+    soma += 1;
+    document.write("Somando...: " + soma + "<br>");
+}
+
+document.write("<br>")
+
+// Saída
+document.write("O resultado da soma utilizando força bruta é: ", soma)
+
+    </script>
+</body>
+</html>

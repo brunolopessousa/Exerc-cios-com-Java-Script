@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Final</title>
+</head>
+<body>
+    <script>
+    var nota
+
+    // Entrada
+     nota = parseFloat(prompt("Informe a nota do Aluno: "))
+
+    // Escolha do dia
+        switch(nota){
+          case 0:
+          case 1: 
+          case 2: 
+          case 3: 
+            alert("Reprovado");
+            break;
+          case 4: 
+          case 5: 
+          case 6: 
+          case 7: 
+            alert("Recuperação Final");
+            break;
+          case 8: 
+          case 9: 
+          case 10: 
+            alert("Aprovado");
+            break;
+          default: 
+          alert("Nota inválida");
+}
+</script>
